@@ -24,7 +24,7 @@
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html#hero-section" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="index.html#about-section" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Product Review</a></li>
+                <li class="nav-item"><a href="catalog.html" class="nav-link">Product Catalog</a></li>
                 <li class="nav-item"><a href="productdetails.html" class="nav-link">Product Details</a></li>
                 <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
                 <li class="nav-item"><a href="signin.html" class="nav-link">Sign-In</a></li>
@@ -32,8 +32,19 @@
 
         </nav>
     </header>
-    <div class="mainproducts">Acoustic Guitars</div>
-    <section class="acousticguitars">
+    
+    <nav class="internal-nav">
+        <a href="#acoustic-guitars">Acoustic</a>
+        <a href="#electric-guitars">Electric</a>
+        <a href="#bass-guitars">Bass</a>
+        <a href="#grand-pianos">Grand</a>
+        <a href="#upright-pianos">Upright</a>
+        <a href="#speakers">Speakers</a>
+    </nav>
+  
+  <section id="acoustic-guitars">
+   <div class="mainproducts">Acoustic Guitars</div>
+    <div class="acousticguitars"> 
       <div class="productcard">
         <div class="product-image">
           <img
@@ -170,9 +181,11 @@
           <button class="cartbutton">Add to cart</button>
         </div>
       </div>
-    </section>
-    <div class="mainproducts">Electric Guitars</div>
-    <section class="electricguitars">
+     </section>
+  
+ <section id="electric-guitars">
+  <div class="mainproducts">Electric Guitars</div>
+    <div class="electricguitars">
         <div class="productcard">
         <div class="product-image">
           <img
@@ -308,9 +321,11 @@
           <button class="cartbutton">Add to cart</button>
         </div>
       </div>
-    </section>
-    <div class="mainproducts">Rental Speakers</div>
-    <section class="Speakers">
+     </section>
+    
+ <section id="speakers">
+  <div class="mainproducts">Rental Speakers</div>
+    <div class="Speakers">
        <div class="productcard">
         <div class="product-image">
           <img
@@ -471,6 +486,7 @@
           <button class="cartbutton">Add to cart</button>
         </div>
       </div> 
-    </section>
+     </section>
   </body>
 </html>
+
