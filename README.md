@@ -1,4 +1,4 @@
-# Music-Store-Frontend
+# Music-Instrument-Store
 A clean, simple, and user-friendly online music store built using modern web technologies. <br>
 This project focuses on a smooth browsing experience, responsive design, and intuitive UI for exploring, previewing, and purchasing music online.<br>
 
